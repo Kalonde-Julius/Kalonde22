@@ -825,13 +825,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #skills {
-  padding: 60px 0;
   align-items:"center";
 }
 
 #skills .progress {
   height: 35px;
   margin-bottom: 10px;
+  align-items: center;
+  text-align:center;
 }
 
 #skills .progress .skill {
@@ -840,17 +841,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0;
   margin: 0 0 0 20px;
   text-transform: uppercase;
+  align-items:center;
+  text-align:center;
+  
 }
 
 #skills .progress .skill .val {
   float: right;
   font-style: normal;
   margin: 0 20px 0 0;
+  align-items:center;
+  text-align:center;
 }
 
 #skills .progress-bar {
   width: 1px;
-  text-align: left;
+  text-align: center;
   transition: .9s;
 }
 
