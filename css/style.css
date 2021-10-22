@@ -826,6 +826,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #skills {
   padding: 60px 0;
+  align-items:"center";
 }
 
 #skills .progress {
